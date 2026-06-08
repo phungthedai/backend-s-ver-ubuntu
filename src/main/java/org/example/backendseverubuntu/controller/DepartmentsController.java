@@ -21,4 +21,7 @@ public class DepartmentsController {
     public List<Departments> findAll() {
         return departmentsService.getAllDepartments();
     }
+
+
+    // find by name
 }
